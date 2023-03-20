@@ -35,6 +35,7 @@ const MainInfoBlock = () => {
             labore tenetur hic.
           </Typography>
           <Typography>Number of students : {students?.Quantity || 0}</Typography>
+          <Typography>Max title sum object:</Typography>
           {maxColumnNameSum &&
             Object.entries(maxColumnNameSum).map(([key, value]) => (
               <Box key={key}>
